@@ -17,11 +17,11 @@ let profilePicture = "images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb";
 
 const nameElement = document.getElementById("name");
 
-const foodElement = documents.getElementById("food");
+const foodElement = document.getElementById("food");
 
-const yearElement = documents.querySelector("#year");
+const yearElement = document.querySelector("#year");
 
-const imagesElement = documents.getElementById("images");
+const imagesElement = document.getElementById("images");
 
 
 /* Step 4 - Adding Content */
@@ -31,7 +31,7 @@ nameElement.innerHTML = "<strong>${fullName}</strong>";
 
 yearElement.textContent = "<strong>${currentYear}</strong>";
 
-imagesElement.setAttribute("src", profilePicture);
+imagesElement.setAttribute("24991ebb-3051-4dcd-bc59-3663f2dc6bcb", profilePicture);
 
 imagesElement.setAttribute("Profile picture of ${fullName}", fullName )
 
@@ -39,6 +39,13 @@ imagesElement.setAttribute("Profile picture of ${fullName}", fullName )
 
 
 
+let favFood = ["pasta", "mutton curry", "chicken alfredo", "burgers"];
 
 
+favFood.push("fried chicken", "grilled cheese", "braai meat");
 
+foodElement.innerHTML += "<br>{favFood}";
+
+favFood.pop(0);
+
+foodElement.innerHTML += "<br>{favFood}";
