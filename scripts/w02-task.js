@@ -3,11 +3,11 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-const fullName = `Iftikaar Gaffoor`;
+let fullName = `Iftikaar Gaffoor`;
 
-const currentYear = "2024";
+let currentYear = `2024`;
 
-const profilePicture = "images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb";
+let profilePicture = `images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb`;
 
 
 
@@ -21,7 +21,7 @@ const foodElement = document.getElementById("food");
 
 const yearElement = document.querySelector("#year");
 
-const imagesElement = document.appendChild("images");
+const imagesElement = document.getElementById("images");
 
 
 /* Step 4 - Adding Content */
@@ -39,13 +39,16 @@ imagesElement.setAttribute(`Profile picture of ${fullName}`, fullName )
 
 
 
-let favFood = ["pasta", "mutton curry", "chicken alfredo", "burgers"];
+const favFoods = ["pasta", "mutton curry", "chicken alfredo", "burgers"];
 
+console.log(food);
 
-favFood.push("fried chicken", "grilled cheese", "braai meat");
+foods.push("fried chicken", "grilled cheese", "braai meat");
 
-foodElement.innerHTML += "<br>{favFood}";
+foodElement.innerHTML += `<br>${favFoods}`;
 
-favFood.pop(0);
+favFoods.pop(0);
 
-foodElement.innerHTML += "<br>{favFood}";
+foodElement.innerHTML += `<br>${favFoods}`;
+
+console.log(food);
