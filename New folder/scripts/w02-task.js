@@ -3,11 +3,11 @@
 /* Step 1 - Setup type tasks - no code required */
 
 /* Step 2 - Variables */
-let fullName = "Iftikaar Gaffoor";
+const fullName = `Iftikaar Gaffoor`;
 
-let currentYear = "2024";
+const currentYear = "2024";
 
-let profilePicture = "images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb";
+const profilePicture = "images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb";
 
 
 
@@ -21,19 +21,19 @@ const foodElement = document.getElementById("food");
 
 const yearElement = document.querySelector("#year");
 
-const imagesElement = document.getElementById("images");
+const imagesElement = document.appendChild("images");
 
 
 /* Step 4 - Adding Content */
 
 
-nameElement.innerHTML = "<strong>${fullName}</strong>";
+nameElement.innerHTML = `<strong>${fullName}</strong>`;
 
-yearElement.textContent = "<strong>${currentYear}</strong>";
+yearElement.textContent = `<strong>${currentYear}</strong>`;
 
-imagesElement.setAttribute("24991ebb-3051-4dcd-bc59-3663f2dc6bcb", profilePicture);
+imagesElement.setAttribute(`24991ebb-3051-4dcd-bc59-3663f2dc6bcb`, profilePicture);
 
-imagesElement.setAttribute("Profile picture of ${fullName}", fullName )
+imagesElement.setAttribute(`Profile picture of ${fullName}`, fullName )
 
 /* Step 5 - Array */
 
