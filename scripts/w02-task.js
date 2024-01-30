@@ -20,7 +20,7 @@ imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
-let favoriteFood = ["Pap","Dhal gos", "Beans", "Chicken", "Pasta", "Braai", "Fish"];
+let favoriteFood = ["Pap","Dhal gos", "Beans", "Chicken", "Pasta", "Braai", "Fish", "French fries"];
 
 foodELement.innerHTML += `<br>${favoriteFood}`;
 let missingFood = "Burger";
