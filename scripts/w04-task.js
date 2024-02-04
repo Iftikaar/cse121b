@@ -5,7 +5,7 @@ let myProfile = {
     name: "Iftikaar Gaffoor",
     photo: "images/24991ebb-3051-4dcd-bc59-3663f2dc6bcb.jpeg",
     favoriteFood: ["Peanut butter sauce","Burger","Beans"],
-    hobbies: ["Anime", "Coding", "Basketball", "Dance"],
+    hobbies: ["Anime", "Coding", "Basketball", "Dance", "Video gaming"],
     placeLived: []
 };
 
