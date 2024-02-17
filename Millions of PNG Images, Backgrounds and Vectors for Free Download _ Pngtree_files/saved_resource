@@ -1,0 +1,43 @@
+
+var ftGUID_7983029="580019DB017BB2";
+var ftConfID_7983029="0";
+var ftParams_7983029="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=pngtree.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fpngtree.com%2Felement%2Fdown&gdpr=&gdpr_consent=&us_privacy=${US_PRIVACY}&ft_partnerimpid=ABAjH0gkUWfZ8L0vDTOI0P5x0XZ7&bundle_id=&site_url=https://pngtree.com/element/down&pub_id=1&sup_platform=1&cachebuster=681022.1065402955";
+var ftKeyword_7983029="";
+var ftCustom_7983029="";
+var ftSection_7983029="";
+var ftSegment_7983029="";
+var ftSegmentList_7983029=[];
+var ftRuleMatch_7983029="0";
+var ftTimestamp_7983029="1707848175";
+var ftGeoC2_7983029="za";
+var ftGeoState_7983029="gp";
+var ftGeoCity_7983029="villieria";
+var ftISP_7983029="rain south africa";
+var ftSpeed_7983029="mobile";
+var ftConnType_7983029="mobile";
+var ftDMA_7983029="-1";
+var ftLong_7983029="28.24";
+var ftLat_7983029="-25.72";
+var ftPostal_7983029="0186";
+var ftTimeZone_7983029="+200";
+var ftMobileCarrier_7983029="rain";
+var ftImp7983029 = {};
+ftImp7983029.privacy = "x";
+ftImp7983029.guidAge = "87";
+ftImp7983029.impID = "ED4325D7-467F-0F2A-FF6B-A4300BC90452";
+ftImp7983029.duid = "FT:580019DB017BB2";
+
+ftImp7983029.ft_tpplid = "";
+ftImp7983029.ft_c = {};
+ftImp7983029.gdpr = "";
+ftImp7983029.gdpr_consent = "";
+ftImp7983029.gdpr_pd = "";
+ftImp7983029.oob_consent = "";
+ftImp7983029.gdprStoredConsent = "";
+ftImp7983029.us_privacy = "!!US_PRIVACY!";
+ftImp7983029.gpc = "";
+
+var ftCreativeId_7983029 = "4589750";
+document.write('<scr'+'ipt src="https://ajs-assets.ftstatic.com/ftUtils.js" id="ftscript_m7983029" name="ftscript_m7983029"></scr'+'ipt>');window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("7983029");
+
+
